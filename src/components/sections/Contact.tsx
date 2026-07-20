@@ -110,8 +110,7 @@ export default function Contact() {
             {/* Resume download */}
             <motion.a
               href={personalInfo.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Sanjaykumar_S_Resume.pdf"
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

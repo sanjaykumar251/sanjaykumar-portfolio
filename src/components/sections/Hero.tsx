@@ -134,8 +134,7 @@ export default function Hero() {
         >
           <a
             href={personalInfo.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            download="Sanjaykumar_S_Resume.pdf"
             className="group inline-flex items-center gap-2.5 px-7 py-3.5 rounded-xl bg-gradient-to-r from-primary-500 to-primary-600 text-white font-semibold text-sm shadow-lg shadow-primary-500/20 hover:shadow-primary-500/30 hover:scale-[1.03] active:scale-[0.98] transition-all duration-200"
           >
             <Download

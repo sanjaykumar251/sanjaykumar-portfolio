@@ -99,8 +99,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <a
               href={personalInfo.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Sanjaykumar_S_Resume.pdf"
               className="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-primary-500/10 text-primary-400 border border-primary-500/20 hover:bg-primary-500/20 transition-colors"
             >
               Resume
@@ -145,13 +144,12 @@ export default function Navbar() {
               </ul>
               <div className="mt-3 pt-3 border-t border-white/[0.06]">
                 <a
-                  href={personalInfo.resumeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center w-full gap-2 px-4 py-3 text-sm font-medium rounded-xl bg-primary-500/10 text-primary-400 border border-primary-500/20 hover:bg-primary-500/20 transition-colors"
-                >
-                  Download Resume
-                </a>
+                href={personalInfo.resumeUrl}
+                download="Sanjaykumar_S_Resume.pdf"
+                className="flex items-center justify-center w-full gap-2 px-4 py-3 text-sm font-medium rounded-xl bg-primary-500/10 text-primary-400 border border-primary-500/20 hover:bg-primary-500/20 transition-colors"
+              >
+                Download Resume
+              </a>
               </div>
             </div>
           </motion.div>
